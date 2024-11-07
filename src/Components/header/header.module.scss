@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 15px;
+    
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+}
+
+.button {
+    width: 109px;
+    height: 40px;
+    margin-left: 15px;
+    background: none;
+    border: none;
+    font-size: 16px;
+}
+
+.sign-up {
+    border: 1px solid #52C41A;
+    border-radius: 5px;
+    color: #52C41A;
+}
+
+.log-out {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.create-article {
+    border: 1px solid #52C41A;
+    border-radius: 5px;
+    color: #52C41A;
+    width: 109px;
+    height: 40px;
+    margin-right: 20px;
+    font-size: 14px;
+    padding: 0;
+}
+
+.username {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.username:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.image {
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    margin: 0;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homebtn {
+    background: none;
+    padding: 0;
+    border: none;
+    
+}
